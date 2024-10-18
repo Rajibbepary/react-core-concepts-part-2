@@ -1,5 +1,6 @@
 
 import './App.css'
+import Counter from './counter';
 
 function App() {
  function handelClick(){
@@ -18,6 +19,7 @@ function App() {
     <>
     
       <h3>React Core Concepts</h3>
+      <Counter></Counter> <br />
       <button onClick={handelClick}>Click Me</button>
       <br /> <br />
       <button onClick={handelClick2}>Click Me2</button>
